@@ -4,8 +4,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)](https://github.com/assafelovic/gpt-researcher)
 [![Twitter Follow](https://img.shields.io/twitter/follow/assaf_elovic?style=social)](https://twitter.com/assaf_elovic)
 
-# This project is an adaptation for the Macbook M1 Pro and solves the problem of constant crashes of chromium and chromedriver by changing the version of chromium and chromedriver in the docker file, as well as by changing the rights to the upload folder for the user on whose behalf the application is launched.
-
+*This project is an adaptation for the Macbook M1 Pro and solves the problem of constant crashes of chromium and chromedriver by changing the version of chromium and chromedriver in the docker file, as well as by changing the rights to the upload folder for the user on whose behalf the application is launched.*
 
 **GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks.** 
 
