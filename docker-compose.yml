@@ -1,0 +1,13 @@
+version: '3'
+services:
+  gpt-researcher:
+    image: assafelovic/gpt-researcher
+    build: ./
+    user: gpt-researcher
+    environment: 
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      CHROME_OPTIONS: '--headless --disable-dev-shm-usage --no-sandbox --ignore-certificate-errors --disable-extensions --disable-gpu'
+    ports:
+      - 8000:8000
+    volumes:
+      - ./outputs:/usr/src/app/outputs
